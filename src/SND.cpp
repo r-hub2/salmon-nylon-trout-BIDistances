@@ -28,7 +28,7 @@ struct CalcSND : public Worker{
         int Counter = 0;
 
         for(int k = 0; k < N; k++){
-          if((AdjMat(i,k) == 1) & (AdjMat(j,k) == 1)){
+          if((AdjMat(i,k) == 1) && (AdjMat(j,k) == 1)){
             Counter = Counter + 1;
           }
         }
