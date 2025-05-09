@@ -19,6 +19,10 @@ TransformSimilarity2MetricDistance=function(Similarity){
     warning("Range could not be successfuly computed.")
     return(NULL)
   }
+  if(any(is.na(ab))){
+    warning("Range could not be successfuly computed.")
+    return(NULL)
+  }
   if(ab[1] < 0 | ab[2] > 1){
     stop('Transformation ist not allowed because eiter negative values or values higher one given.')
   }
