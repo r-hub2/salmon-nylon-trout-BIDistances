@@ -15,7 +15,7 @@
 \item{Distance}{[1:n,1:n] symmetric matrix, containing the distanes of the cases (rows) for the given data}
 }
 \references{
-\url{http://stats.stackexchange.com/questions/31565/is-there-an-r-function-that-will-compute-the-cosine-dissimilarity-matrix}
+\url{https://stats.stackexchange.com/questions/31565/is-there-an-r-function-that-will-compute-the-cosine-dissimilarity-matrix}
 }
 \author{
 Michael Thrun

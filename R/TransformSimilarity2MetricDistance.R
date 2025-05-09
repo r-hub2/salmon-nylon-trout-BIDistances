@@ -10,7 +10,11 @@ TransformSimilarity2MetricDistance=function(Similarity){
   if(any(diag(Similarity)!=1)){
     stop('Transformation ist not allowed because diagonal does not equal one.')
   }
-  ab=range(Similarity)
+  ab = range(Similarity)
+  if(length(ab) != 2){
+    warning("Range could not be successfuly computed.")
+    return(NULL)
+  }
   if(ab[1] < 0 | ab[2] > 1){
     stop('Transformation ist not allowed because eiter negative values or values higher one given.')
   }

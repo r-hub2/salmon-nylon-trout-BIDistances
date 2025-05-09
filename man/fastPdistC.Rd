@@ -24,7 +24,7 @@ fastPdistC(Ar,Br)
 dist[1:n,1:n]   distances
 }
 \references{
-\url{http://blog.felixriedel.com/2013/05/pairwise-distances-in-r/}
+\url{https://blog.felixriedel.com/2013/05/pairwise-distances-in-r/}
 }
 \author{
 Felix Riede
