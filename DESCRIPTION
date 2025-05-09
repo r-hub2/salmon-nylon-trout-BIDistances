@@ -19,7 +19,7 @@ LazyLoad: yes
 LazyData: TRUE
 Encoding: UTF-8
 VignetteBuilder: knitr
-Packaged: 2025-05-09 08:48:22 UTC; quiri
+Packaged: 2025-05-09 12:22:06 UTC; quiri
 Author: Quirin Stier [aut, rev, ctb, cre]
     (<https://orcid.org/0000-0002-7896-4737>),
   Michael Thrun [aut] (<https://orcid.org/0000-0001-9542-5543>),
